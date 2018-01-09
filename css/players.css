@@ -1,0 +1,137 @@
+#landing_players {
+	background: url("../img/bg/tavern2.jpg") center no-repeat fixed;
+	background-size: cover;
+}
+
+/* GENERAL CLASSES */
+.character {
+	position: relative;
+	padding: 4em 0;
+	font-family: "Alegreya", serif;
+}
+
+.portrait {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	border-radius: 100%;
+	border: 5px solid white;
+	box-shadow: 0 0 10px #AAA;
+}
+
+#dm {
+	font-weight: 400;
+	font-size: 0.9em;
+}
+
+/* PLAYER NAV */
+.playernav {
+	margin-top: 5em;
+	text-align: center;
+	font-family: "PT Serif", serif;
+}
+
+/* MAIN TYPOGRAPHY RULES */
+
+.character h1 {
+	font-weight: 900;
+	border-bottom: 2px solid #01324A;
+}
+.character h1, .character h3 {
+	color: #2C769A;
+}
+.character h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	font-style: italic;
+	color: #555;
+	margin-bottom: 1em;
+}
+.character h3 {
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.character h4 {
+	font-size: 1em;
+	font-style: italic;
+}
+.character p {
+	font-size: 1.1em;
+	color: #111;
+	margin-bottom:2em;
+}
+
+.character blockquote {
+	position: relative;
+	float: left;
+	margin: 0.5em 1em;
+	padding: 0.3em 0;
+	width: 40%;
+	font-size: 1.3em;
+	font-style: italic;
+	text-align: center;
+	border-top: 1px solid #01324A;
+	border-bottom: 1px solid #01324A;
+}
+.character blockquote p {
+	margin: 0.5em 0;
+	color: #2C769A;
+}
+
+/* RED BACKGROUNDS FOR SECONDARY DIVS */
+.red_bg {
+	background-color: #6E0014;
+}
+.red_bg h1 {
+	border-bottom: 2px solid #D43350;
+}
+.red_bg h2, .red_bg h4 {
+	color: #AAA;
+}
+.red_bg h1, .red_bg h3 {
+	color: #ED2B4D;
+}
+.red_bg p {
+	color: #CCC;
+}
+.red_bg blockquote {
+	float: right;
+	border-top: 1px solid #D43350;
+	border-bottom: 1px solid #D43350;
+}
+.red_bg blockquote p {
+	color: #F1647D;
+}
+
+/* PLAYER INFORMATION RULES */
+.location p {
+	margin-top: 2em;
+	font-family: "PT Serif", serif;
+	font-weight: 400;
+	font-size:0.9em;
+	text-align: center;
+	color: #999;
+}
+
+/* BACK TO TOP BUTTON */
+.to_top {
+	min-height: 70px;
+	transition: 0.2s;
+}
+.to_top:hover {
+	background-color: #D43350;
+}
+.to_top img {
+	max-width: 80px;
+	float: left;
+	margin: 10px;
+}
+.col-md-8 .to_top h3 {
+	color: #333;
+	padding-top: 28px;
+	padding-left: 120px;
+}
+.red_bg .col-md-8 .to_top h3 {
+	color: #EEE;
+}

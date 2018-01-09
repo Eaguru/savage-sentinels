@@ -1,0 +1,127 @@
+#landing_campaign {
+	background: url("../img/bg/asuteroid_journey.jpg") center no-repeat fixed;
+	background-size: cover;
+}
+
+/* CAMPAIGN NAV */
+.campaignnav {
+	margin-top: 5em;
+	text-align: center;
+	font-family: "PT Serif", serif;
+}
+
+/* CHARACTERS */
+.campaign {
+	position: relative;
+	padding: 4em 0 0 0;
+	font-family: "Alegreya", serif;
+	margin-bottom: 2em;
+}
+
+.campaign h1 {
+	color: #2C769A;
+	font-weight: 900;
+	border-bottom: 2px solid #01324A;
+}
+.campaign h2 {
+	color: #777;
+	font-size: 1.5em;
+}
+.campaign h3 {
+	padding: 1em 9%;
+	margin: 1em auto;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	font-style: italic;
+	color: #6E0014;
+	border-left: 2px solid #D43350;
+	border-right: 2px solid #D43350;
+	background-color: #edb1bb;
+	position: relative;
+}
+
+/* FANCY BLOCK QUOTATIONS */
+.campaign h3:before {
+	display: block;
+	content: "\201C";
+	font-size: 5em;
+	position: absolute;
+	left: -0.05em;
+	top: 0.3em;
+	color: #D43350;
+}
+.campaign h3:after {
+	display: block;
+	content: "\201D";
+	font-size: 5em;
+	position: absolute;
+	color: #D43350;
+	right: 0.15em;
+}
+/* END OF FANCY BLOCK QUOTATIONS */
+
+.campaign p {
+	font-size: 1.1em;
+	color: #111;
+	margin-bottom: 0;
+	text-indent: 2em;
+}
+.campaign p:first-child {
+	text-indent: 0em;
+	margin-top: 1em;
+}
+
+.banner {
+	width: 100%;
+	height: 300px;
+	margin-bottom: 2em;
+}
+
+.banner:nth-child(1) {
+	margin-top: 0;
+}
+
+/* CAMPAIGN BANNERS */
+#runelords {
+	background: url("../img/bg/campaign_runelords.jpg") left no-repeat;
+	background-size: cover;
+}
+#pota {
+	background: url("../img/bg/campaign_pota.jpg") right no-repeat;
+	background-size: cover;
+}
+#tomb {
+	background: url("../img/bg/campaign_tomb.jpg") right no-repeat;
+	background-size: cover;
+}
+#seconds {
+	background: url("../img/bg/campaign_seconds.jpg") right no-repeat;
+	background-size: cover;
+}
+#strahd {
+	background: url("../img/bg/campaign_strahd.jpg") right no-repeat;
+	background-size: cover;
+}
+
+/* BACK TO TOP BUTTON */
+.to_top {
+	margin-top: 1em;
+	min-height: 70px;
+	transition: 0.2s;
+}
+.to_top:hover {
+	background-color: #D43350;
+}
+.to_top img {
+	max-width: 80px;
+	float: left;
+	margin: 10px;
+}
+.to_top h4 {
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 0;
+	color: #333;
+	padding-top: 28px;
+	padding-left: 120px;
+}
